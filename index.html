@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>🌸 Cuestionario 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="login-container">
+    <h2>Iniciar sesión</h2>
+    <input type="text" id="username" placeholder="Usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button type="button" onclick="login()">Ingresar</button>
+
+    <p id="login-error"></p>
+  </div>
+
+  <div id="quiz-container" style="display: none;">
+    <h2>🌼 Responde estas preguntas 🌼</h2>
+    <div id="pregunta"></div>
+    <div id="opciones"></div>
+  </div>
+
+ <div id="flores-container" style="display: none;">
+  <audio autoplay loop>
+    <source src="ateez.mp3" type="audio/mp3">
+  </audio>
+  
+  <div class="final-content">
+    <h2 id="titulo-amor">¿QUERES SER MI SAN VALENTIN??</h2>
+    
+    <div id="botones-finales">
+      <button id="btn-si" onclick="aceptar()">¡SÍ! 😍</button>
+      <button id="btn-no" onmouseover="escapar(this)" onclick="escapar(this)">No 😢</button>
+    </div>
+  </div>
+
+  <img src="foto.png" id="ramo" alt="Ramo de flores">
+  <canvas id="flores"></canvas>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
