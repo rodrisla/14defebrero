@@ -22,7 +22,7 @@ const preguntas = [
     texto: "De que equipo de futbol era de chiquito?",
     opciones: ["Racing", "Boca", "River", "San Miguel"],
     correcta: "Racing"
-  }/* ,
+  } ,
   {
     texto: "Cual es mi personaje de Dragon Ball favorito?",
     opciones: ["Goku", "Gohan", "Picolo", "Vegeta"],
@@ -42,7 +42,7 @@ const preguntas = [
     texto: "Cual es mi segundo anime favorito?",
     opciones: ["Demon Slayer", "My Hero Academia", "Black Cover", "Dragon Ball"],
     correcta: "My Hero Academia"
-  } */
+  } 
 ];
 
 let indicePregunta = 0;
